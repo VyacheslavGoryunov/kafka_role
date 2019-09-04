@@ -21,3 +21,9 @@
     - kafka_service_enabled
     - kafka_service_state == "started"
     - kafka_service_checking
+
+- name: KAFKA | Wait for 10 seconds
+  pause: 
+    seconds: 10
+  when:
+    - kafka_service_checking == false
