@@ -135,3 +135,5 @@ kafka_topics_config: []
 kafka_extra_properties: []
 # - key: message.max.bytes
 #   value: 409715200
+
+kafka_service_checking: true

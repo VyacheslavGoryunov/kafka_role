@@ -20,3 +20,4 @@
   when:
     - kafka_service_enabled
     - kafka_service_state == "started"
+    - kafka_service_checking
